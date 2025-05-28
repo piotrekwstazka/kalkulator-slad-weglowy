@@ -28,7 +28,7 @@ mieso_emisja = mieso_dni * 7 * 2.5  # przybliżona emisja: 2.5 kg CO2 dziennie z
 
 st.header("✈️ Loty")
 
-loty_km = st.number_input("Ile km rocznie pokonujesz samolotem?", min_value=0, step=100)
+loty_km = st.number_input("Ile km rocznie pokonujesz samolotem?", min_value=0, step=10)
 loty_emisja = loty_km * 0.15  # kg CO2/km
 
 # Obliczanie łącznej emisji
